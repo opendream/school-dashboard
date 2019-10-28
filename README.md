@@ -1,4 +1,4 @@
-# school-dashboard
+# School-Dashboard
 
 ##### Firebase setup
 1. Setup firebase project. 
@@ -20,22 +20,25 @@
    ```
 5. firebase init 
   
-######  Admin USER setup
+######  Admin USER Setup
 - Add collection 'Users' 
 - Add User UID from (3) as document-id
 - Add fields [name, role=admin] 
 
-######  Staff USER setup
+######  Staff USER Setup
 - Add collection 'Users' 
 - Add User UID from (3) as document-id
 - Add fields [name, role=teacher, organizationId] 
 
-##### Project setup
+######  Firestore Index Setup
+- Add indexes follow this file.
+https://github.com/opendream/school-dashboard/blob/master/dbIndex.csv
+
+##### Project Setup
 ```
 $ npm install
 $ npm run start
 ```
-
 
 ##### Deploy project 
 ```
