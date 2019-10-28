@@ -1,0 +1,29 @@
+{
+    "ORGANIZATION": "Schools",
+    "STUDENT": "Students",
+    "TEACHER": "Teachers",
+
+    "CONTENT": "Contents",
+    "CHAPTER": "Chapters",
+    "CHALLENGE": "Challenges",
+    "QUIZ": "Quizzes",
+    "CHOICE": "Choices",
+
+    "STUDENT_ANSWER": "Answers",
+    "EVENT": "Events",
+
+    "DEPARTMENT": "Departments",
+    "SECTION": "Sections",
+
+    "ORGANIZATION_STAT": "OrganizationStat",
+    "CHAPTER_STAT": "ChapterStat",
+    "CHALLENGE_STAT": "ChallengeStat",
+    "STUDENT_STAT": "StudentStat",
+
+    "DATA": "Data",
+    "STAT": "Stat",
+
+    "USER": "Users",
+
+    "version": 1.0
+}

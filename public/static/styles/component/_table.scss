@@ -1,0 +1,33 @@
+/*----------------------------------
+Component : Table
+----------------------------------*/
+.table {
+    margin: 1.5rem 0;
+    color: $gray;
+    thead th {
+        border-top: 0;
+        padding: 0.25rem 0.75rem;
+        font-size: 14px;
+    }
+    tbody { background: $white; }
+    th, td {
+        font-weight: 300;
+        vertical-align: middle;
+    }
+    .img-cover {
+        width: 45px;
+        // @include border-radius(8px);
+    }
+}
+
+
+
+.table-active {
+    tr td { border-top: 0; }
+    tr { border-bottom: 1px solid $white; }
+    tbody { background: inherit; }
+}
+
+.accordion-toggle {
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+/*----------------------------------
+Component : Form
+----------------------------------*/
+.form-control {
+    color: $gray;
+    font-weight: 300;
+    @include border-radius(50px);
+    border-color: $gray-400;
+}
+
+textarea.form-control {
+    @include border-radius(10px);
+}
+
+select.form-control {
+    -webkit-appearance: none;
+    background: #fff url("../images/dropdown-arrow.png") no-repeat 95% center;
+    background-size: 12px;
+    padding: 0.375rem 3rem 0.375rem 1rem;
+    &:before {
+        content: "";
+    }
+}
+
+input.form-control-file {
+    @include border-radius(50px);
+    background: $gray-400;
+    border-color: $gray-400;
+    padding: 0.25rem 0.75rem;
+}
+
+.custom-file {
+    .custom-file-label {
+        @include border-radius(50px);
+        color: $gray-500;
+        font-weight: 300;
+        &::after {
+            @include border-radius(0 50px 50px 0);
+        }
+    }
+}
+
+.search-group {
+    position: relative;
+    .form-control {
+        padding-left: 15px;
+    }
+    .form-inline { position: relative;}
+    .form-inline form {
+        position: relative;
+    }
+    .btn-search-inline {
+        background: #dee2e6 url(../images/ic-search.png) no-repeat center center;
+        width: 25px;
+        height: 33px;
+        border: 1px solid #dee2e6;
+        padding: 5px 5px 5px 20px;
+        line-height: 1.5em;
+        background-size: 18px;
+        min-width: 50px;
+        line-height: 1em;
+        border-radius: 30px;
+        text-indent: -999em;
+        margin: 0 0.5rem 0 0;
+    }
+}

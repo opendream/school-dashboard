@@ -1,0 +1,99 @@
+/*----------------------------------
+Component : header
+----------------------------------*/
+
+header {
+    margin-bottom: 1.5em;
+    .navbar { padding: 1em 0em; }
+    .navbar-brand { margin-right: 1em; }
+    .navbar-nav {
+        .nav-item {
+            margin-left: 1em;         
+                .nav-link { 
+                    &.active, &:hover, &:active {
+                        color: $gray;
+                        border: 1px solid $gray-200; 
+                        @include border-radius(50px);
+                    }
+                }
+            
+            .nav-link {
+                color: $gray;
+                border: 1px solid $white; 
+                padding: 0.5em 1.2em;
+            }
+        }
+    }
+    .username {
+        color: $white;
+        a { color: $white; }
+        .show-name {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 165px;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+    }
+    .ic-signout {
+        .fa { 
+            font-size: 22px;
+            line-height: 1;
+        }
+        
+    }
+}
+
+
+
+/*----------------------------------
+Component : CMS header
+----------------------------------*/
+
+.header-cms {
+    > header {
+        background: $white;
+        border-bottom: 1px solid $gray-300;
+    }
+}
+
+/*----------------------------------
+Component :  header dashboard
+----------------------------------*/
+
+.header-dashboard {
+    > header {
+        //background: rgb(103,142,243);
+        //background: linear-gradient(45deg, rgba(103,142,243,1) 0%, rgba(63,30,207,1) 100%);
+        background: linear-gradient(45deg, #3ed8c9 0%, #2c9180 100%);
+    }
+    .navbar-nav {
+        .nav-item {
+                .nav-link { 
+                    &.active, &:hover, &:active {
+                        color: $white;
+                        border: 1px solid transparent; 
+                        @include border-radius(50px);
+                        background: rgba(55,55,55,0.3);
+                    }
+                }
+            
+            .nav-link {
+                color: $white;
+                border: 1px solid transparent; 
+            }
+        }
+    }
+}
+
+/*----------------------------------
+Component :  Breadcrumb
+----------------------------------*/
+.breadcrumb {
+    background-color: transparent;
+    padding: 0.75rem 0;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">"
+}

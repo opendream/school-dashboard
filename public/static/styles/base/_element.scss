@@ -1,0 +1,43 @@
+.order-list {
+    padding: 0;
+    margin-bottom: 0.5rem;
+    li {
+        margin-bottom: 0.5em;
+        display: block;
+        position: relative;
+        counter-increment: inst;
+        &:before {
+            background: url(../images/bg-leaf.png) no-repeat;
+            content: counter(inst);
+            width: 37px;
+            height: 37px;
+            background-size: 100%;
+            text-align: center;
+            display: inline-block;
+            text-align: center;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+    }
+
+}
+
+.img-thumb {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 44px;
+    margin: 0 auto;
+    height: 44px;
+    @include border-radius(8px);
+    > img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      max-width: none;
+      width: 44px;
+    }
+}
+
+.mh-100vh { min-height: 100vh ;}

@@ -1,0 +1,12 @@
+body {
+    font-family: $font-stack;
+    font-size: $browser-font-context;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    color: $font-color;
+}
+
+small, .small {
+    display: inline-block;
+    line-height: 1.5em;
+}

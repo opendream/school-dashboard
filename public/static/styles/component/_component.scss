@@ -1,0 +1,327 @@
+.card {
+    @include box-shadow(0,0,6px,$gray-400);
+    border: none;
+}
+.card-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #333 !important;
+}
+.modal-content {
+    z-index: 99999;
+}
+.modal-header .close {
+    font-size: 2rem;
+    font-weight: normal;
+}
+.modal-footer { border-top: 0; }
+
+.ic-plus {
+    &:before {
+        background: url(../images/ic-add.png) no-repeat;
+        width: 25px;
+        height: 25px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+
+.ic-edit {
+    &:before {
+        background: url(../images/ic-edit.png) no-repeat;
+        width: 25px;
+        height: 25px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+
+}
+
+.ic-search {
+    &:before {
+        background: url(../images/ic-search.png) no-repeat;
+        width: 12px;
+        height: 12px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+
+}
+
+.ic-diamond {
+    &:before {
+        background: url(../images/ic-diamond.png) no-repeat;
+        width: 35px;
+        height: 35px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+
+}
+
+.ic-team {
+    &:before {
+        background: url(../images/ic-team.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+.ic-intelligence {
+    &:before {
+        background: url(../images/ic-intelligence.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 32px;
+    }
+}
+
+.ic-outcome {
+    &:before {
+        background: url(../images/ic-change.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 32px;
+    }
+}
+
+.ic-game {
+    &:before {
+        background: url(../images/ic-game.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 40px;
+    }
+}
+
+.ic-pause {
+    &:before {
+        background: url(../images/ic-pause.png) no-repeat;
+        width: 35px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+.ic-line-chart {
+    &:before {
+        background: url(../images/ic-line-chart.png) no-repeat center center;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+.ic-message {
+    &:before {
+        background: url(../images/ic-muscle.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+.ic-complete {
+    &:before {
+        background: url(../images/ic-rocket.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+.ic-coin {
+    &:before {
+        background: url(../images/ic-coin.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        background-size: 100%;
+    }
+}
+
+.ic-right {
+    &:before {
+        width: 45px;
+        height: 45px;
+        position: absolute;
+        right: 0.5rem;
+        bottom: 0.5rem;
+    }
+}
+
+.ic-export {
+    &:before {
+        background: url(../images/ic-export.png) no-repeat;
+        width: 15px;
+        height: 12px;
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 5px;
+        background-size: 100%;
+    }
+}
+
+.ic-view {
+    position: relative;
+    &:before {
+        content: " ";
+        background: url("../images/ic-view.png") no-repeat center center;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(-50%,-50%);
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+    }
+}
+/*----------------------------------
+Component : Icon Color
+.icon-item icon-start
+----------------------------------*/
+
+.icon-item {
+    padding-left: 50px;
+    margin: 0 0 0.75rem;
+    position: relative;
+    strong {
+        display: block;
+        color: #333333;
+        font-weight: 500;
+        font-size: 1.1em;
+        margin: 0;
+    }
+    &:before {
+        background: url(../images/ic-trekking.png) no-repeat;
+        position: absolute;
+        content: "";
+        display: inline-block;
+        background-size: 100%;
+        width: 35px;
+        height: 45px;
+        // top: 50%;
+        left: 0;
+        // transform: translate(0,-50%);
+    }
+}
+    .icon-start:before {
+        background: url(../images/ic-trekking.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-finish:before {
+        background: url(../images/ic-goal.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-route:before {
+        background: url(../images/ic-route.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-top:before {
+        background: url(../images/ic-top.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-top1:before {
+        background: url(../images/ic-top2.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-piechart:before {
+        background: url(../images/ic-pie-chart.png) no-repeat;
+        background-size: 100%;
+    }
+    .icon-star:before {
+        background: url(../images/ic-star.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-start:before {
+        background: url(../images/ic-start.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-rocket:before {
+        background: url(../images/ic-rocket.png) no-repeat center;
+        background-size: 100%;
+    }
+    .icon-muscle::before {
+        background: url(../images/ic-muscle.png) no-repeat center;
+        background-size: 100%;
+        width: 30px;
+    }
+
+
+    /* answser point */
+    .table-answer {
+        tr td { padding: 0.5rem; }
+        .btn {
+            min-width: 62px;
+            height: 45px;
+            position: relative;
+            cursor: pointer;
+            &::before {
+                margin-right: 0;
+                width: 15px;
+                height: 15px;
+                padding: 0.5rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+        td a { color: $gray-800; }
+    }
+    .ans-point {
+        color: $gray-800;
+        @include border-radius(10px);
+        background: $gray-100;
+        font-weight: 600;
+        text-align: center;
+        padding: 0.75rem 0;
+        width: 60px;
+        &--correct {
+            background: #8DC63F;
+        }
+    }
+
+
+.alert-warning {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
