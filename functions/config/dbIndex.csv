@@ -1,0 +1,13 @@
+Collection ID,Fields indexed,Query scope
+Data,created Ascending totalScore Descending,Collection
+Students,isDelete Ascending studentId Ascending,Collection
+Contents,isDelete Ascending subjectCode Ascending,Collection
+Chapters,isDelete Ascending subjectId Ascending chapterCode Ascending,Collection
+Data,studentId Ascending created Ascending,Collection
+Chapters,isDelete Ascending chapterCode Ascending,Collection
+Students,isDelete Ascending totalScore Descending,Collection
+Challenges,isDelete Ascending challengeCode Ascending,Collection
+Students,department Ascending studentId Ascending,Collection
+Students,isCompleted Ascending studentId Ascending,Collection
+Data,created Ascending totalUser Descending,Collection
+Data,chapterCode Ascending created Ascending,Collection
